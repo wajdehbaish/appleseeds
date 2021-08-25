@@ -127,8 +127,9 @@ p {
 
 /* Showcase */
 #showcase {
-  background: url('../img/showcase.jpg') no-repeat center center/cover;
+  background: url('../img/pexels-photo-1488463.jpg') no-repeat center center/cover;
   height: 600px;
+  filter: brightness(50%);
 }
 
 #showcase .showcase-content {
@@ -155,7 +156,7 @@ p {
 #home-info .info-img {
   float: left;
   width: 50%;
-  background: url('../img/photo-1.jpg') no-repeat;
+  background: url('../img/pexels-photo-2447042.jpeg') no-repeat center center/cover;
   min-height: 100%;
 }
 
@@ -175,7 +176,7 @@ p {
 /* Features */
 .box {
   float: left;
-  width: 33.3%;
+  width: 50%;
   padding: 50px;
   text-align:center;
 }
@@ -207,7 +208,7 @@ p {
 /* Testimonials */
 #testimonials {
   height: 600px;
-  background: url('../img/test-bg.jpg') no-repeat center center/cover;
+  background: url('../img/pexels-photo-2447043.jpeg') no-repeat center center/cover;
   padding-top: 100px;
 }
 
