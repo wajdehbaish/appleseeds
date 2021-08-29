@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex navbar</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .container {
+            display: flex;
+            justify-content: space-between;
+            border: black 2px solid;
+            align-items: center;
+            background: gray;
+            padding: 10px;
+        }
+        
+        .header-1 {
+            display: flex;
+            text-align: center;
+        }
+        
+        .item {
+            display: flex;
+        }
+        
+        .item h4 {
+            margin: 10px;
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .container {
+                flex-direction: column;
+            }
+            .item {
+                flex-direction: column;
+            }
+            .header-1 {
+                justify-content: center;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header-1">appleseeds</div>
+        <div class="item">
+            <h4>home</h4>
+            <h4>about</h4>
+            <h4>portfolio</h4>
+            <h4>contact</h4>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
