@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseusdo selector animation</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+        }
+        
+        .box {
+            width: 30vw;
+            height: 30vh;
+            position: relative;
+            background: red;
+        }
+        
+        .box::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -30vw;
+            height: 100%;
+            width: 100%;
+            background: purple;
+        }
+        
+        .box:hover::before {
+            transition: all 1s ease-out;
+            transition-delay: 0.5s;
+            transform: translatex(30vw);
+            background: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+
+    </div>
+</body>
+
+</html>
