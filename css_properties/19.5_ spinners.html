@@ -35,25 +35,41 @@
             animation: jump 2s infinite 0.6s;
         }
         
+        .dot4 {
+            animation: jump-1 2s infinite;
+        }
+        
+        .dot5 {
+            animation: jump-1 2s infinite 0.2s;
+        }
+        
+        .dot6 {
+            animation: jump-1 2s infinite 0.4s;
+        }
+        
         @keyframes jump {
             0% {
                 opacity: 1;
             }
-            25% {
+            50% {
                 opacity: 0.75;
                 background: red;
             }
-            50% {
+            100% {
                 opacity: 0.5;
                 background: yellow;
             }
-            75% {
-                opacity: 0.75;
-                background: green;
+        }
+        
+        @keyframes jump-1 {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-50px);
             }
             100% {
-                opacity: 1;
-                background: green;
+                transform: translateY(0);
             }
         }
     </style>
@@ -63,6 +79,9 @@
     <div class="dot dot1"></div>
     <div class="dot dot2"></div>
     <div class="dot dot3"></div>
+    <div class="dot dot4"></div>
+    <div class="dot dot5"></div>
+    <div class="dot dot6"></div>
 </body>
 
 </html>
