@@ -1,0 +1,571 @@
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: "Amazon Ember", Arial, sans-serif;
+        box-sizing: border-box;
+    }
+    
+    .bg-amazon-logo {
+        background: url('../image/new-nav-sprite-global-2x_blueheaven-account._cb658093420_.png') no-repeat -22px -102px;
+        width: 156px;
+        height: 48px;
+        zoom: 50%;
+        padding: 10px;
+    }
+    
+    .mainnav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 60px;
+        width: 100%;
+        padding: 10px;
+        background-color: #131921;
+    }
+    
+    .nav-item {
+        border: 1px solid #131921;
+        cursor: pointer;
+        padding: 10px;
+    }
+    
+    .nav-item1 {
+        border: 1px solid #232f3e;
+        cursor: pointer;
+    }
+    
+    .nav-item1:hover {
+        border: 1px solid white;
+    }
+    
+    .nav-item:hover {
+        border: 1px solid white;
+    }
+    
+    .deliver {
+        display: flex;
+        align-items: center;
+        border: 1px solid #131921;
+    }
+    
+    .deliver-content {
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+    
+    .deliver:hover {
+        border: 1px solid white;
+        padding: 10px;
+    }
+    
+    .bg-location {
+        background: url('../image/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png') no-repeat -71px -379px;
+        width: 15px;
+        height: 17px;
+        margin-right: 5px;
+        align-self: flex-end;
+    }
+    
+    .deliver-content span:first-child {
+        color: #ccc;
+    }
+    
+    .deliver-content span:nth-child(2) {
+        font-weight: bold;
+    }
+    
+    .usa-family {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 40px;
+        border: 1px solid #131921;
+    }
+    
+    .usa-family:hover {
+        border: 1px solid white;
+        padding: 10px;
+    }
+    
+    .down-arrow-white {
+        background: url('../image/white-arrow-png-41965-Windows.ico') no-repeat center center/cover;
+        width: 8px;
+        height: 4px;
+        margin-top: 25px;
+    }
+    
+    .bg-flag {
+        background: url('../image/united-states.png') no-repeat center center/cover;
+        width: 30px;
+        height: 30px;
+    }
+    
+    .sign-in-content {
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+    
+    .sign-in-content span:first-child {
+        color: #ccc;
+    }
+    
+    .sign-in-content span:nth-child(2) {
+        font-weight: bold;
+    }
+    
+    .down-arrow {
+        background: url('../image/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png') no-repeat -184px -361px;
+        width: 13px;
+        height: 8px;
+    }
+    
+    .search-bar {
+        display: flex;
+        width: 50%;
+    }
+    
+    .search-input {
+        width: 100%;
+        padding: 0.8rem;
+        border: none;
+    }
+    
+    .search-bar button {
+        border: none;
+        padding: 0.5rem;
+    }
+    
+    .left-btn {
+        width: 5rem;
+        border-radius: 3px 0 0px 3px;
+        background: rgb(188, 206, 251);
+    }
+    
+    .left-btn:hover {
+        border: white;
+        border-radius: 5px;
+    }
+    
+    .left-btn span {
+        display: inline-block;
+    }
+    
+    .right-btn {
+        border-radius: 0px 3px 3px 0px;
+        background-color: #febd69;
+    }
+    
+    .right-btn:hover {
+        background-color: #FF8F00;
+    }
+    
+    .right-icon {
+        background: url('../image/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png') no-repeat -10px -290px;
+        width: 21px;
+        height: 21px;
+        background-color: #febd69;
+    }
+    
+    .right-icon:hover {
+        background-color: #FF8F00;
+    }
+    
+    .returns-content {
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+    
+    .returns-content:first-child {
+        color: #ccc;
+    }
+    
+    .returns-content:nth-child(2) {
+        font-weight: bold;
+    }
+    
+    .third-logo {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .bg-third-logo {
+        background: url('../image/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png') no-repeat -218px -337px;
+        width: 41px;
+        height: 28px;
+    }
+    
+    .cart-content {
+        display: flex;
+        align-self: flex-end;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .nav2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 5vh;
+        padding: 10px;
+        background-color: #232f3e;
+        color: white;
+    }
+    
+    .left-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        width: 50%;
+    }
+    
+    .nav3 {
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        height: 3vh;
+        padding: 20px;
+        background-color: #fafafa;
+        color: black;
+        border: 1px solid gray;
+    }
+    
+    .nav3 div {
+        margin-left: 10px;
+    }
+    
+    .nav-item2 {
+        border: 1px solid #fafafa;
+        cursor: pointer;
+    }
+    
+    .nav-item2:hover {
+        border-bottom: #fdb953 4px solid;
+        color: #fdb953;
+    }
+    
+    .header a {
+        text-decoration: none;
+        color: gray;
+        font-size: 12px;
+        padding: 10px;
+    }
+    
+    .header a:hover {
+        text-decoration: underline;
+    }
+    
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 4px;
+        grid-row-gap: 0px;
+    }
+    
+    .photo-list {
+        grid-area: 1 / 1 / 4 / 4;
+    }
+    
+    .price {
+        color: #b12704;
+        margin-bottom: 10px;
+    }
+    
+    .div2 {
+        grid-area: 1 / 4 / 4 / 6;
+        font-size: 14px;
+    }
+    
+    .line1,
+    .line2 {
+        display: flex;
+        align-items: center;
+    }
+    
+    .star-icon {
+        background: url('../image/McBZv0ZvnbehkIx.png') no-repeat -205px -398px;
+        width: 94px;
+        height: 17px;
+    }
+    
+    .second-logo2 {
+        background: url(../image/R.png)no-repeat center center/cover;
+        height: 100px;
+        width: 350px;
+        zoom: 30%;
+        color: black;
+        margin-bottom: 6px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    hr {
+        color: #e7e7e7;
+        margin-top: 0;
+        margin-bottom: 18px;
+    }
+    
+    .list1 {
+        line-height: 25px;
+    }
+    
+    .div3 {
+        grid-area: 1 / 6 / 6 / 7;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        border: #e7e7e7 1px solid;
+    }
+    
+    .third-p {
+        color: grey;
+        font-size: 12px;
+    }
+    
+    .second-p {
+        color: grey;
+    }
+    
+    .fourd-p {
+        font-size: 12px;
+    }
+    
+    .qty-list {
+        width: 60px;
+        padding: 2px;
+        border-radius: 10px;
+        outline: none;
+    }
+    
+    .yellow {
+        border: yellow;
+        border-radius: 30px;
+        background-color: yellow;
+        width: 200px;
+        height: 30px;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+    
+    .orange {
+        border: orange;
+        border-radius: 30px;
+        background-color: orange;
+        width: 200px;
+        height: 30px;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+    
+    .div4 {
+        grid-area: 4 / 1 / 5 / 6;
+    }
+    
+    .Frequently-bought-images {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+    
+    .total-price {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .price-btn {
+        border: yellow;
+        border-radius: 30px;
+        background-color: yellow;
+        cursor: pointer;
+        margin-bottom: 10px;
+        width: 150px;
+        height: 30px;
+    }
+    
+    .price-btn:hover {
+        background-color: orange;
+    }
+    
+    .plus {
+        font-size: 30px;
+        color: grey;
+        margin: 10px;
+    }
+    
+    .div5 {
+        grid-area: 5 / 1 / 6 / 6;
+    }
+    
+    .location-logo2 {
+        background: url('../image/location.png') no-repeat 0 0;
+        width: 12px;
+        height: 14px;
+    }
+    
+    .price,
+    .location-logo2,
+    .stock {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    .stock {
+        color: #007600;
+    }
+    
+    .main-page .parent .photo-list li {
+        width: 42px;
+        height: 42px;
+        border: 1px solid black;
+        margin: 15px 10px 10px 20px;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .box1 {
+        display: flex;
+        position: relative;
+    }
+    
+    .main-page .parent .photo-list .list1 li:first-child:hover,
+    .main-page .parent .photo-list .list1 li:nth-child(2):hover,
+    .main-page .parent .photo-list .list1 li:nth-child(3):hover,
+    .main-page .parent .photo-list .list1 li:nth-child(4):hover,
+    .main-page .parent .photo-list .list1 li:nth-child(5):hover,
+    .main-page .parent .photo-list .list1 li:nth-child(6):hover {
+        border: 1px solid #F29257;
+        box-shadow: 2px 2px 6px #F29257, -2px -2px 6px #F29257;
+    }
+    
+    .main-page .parent .photo-list .list1 li:first-child img,
+    .main-page .parent .photo-list .list1 li:nth-child(2) img,
+    .main-page .parent .photo-list .list1 li:nth-child(3) img,
+    .main-page .parent .photo-list .list1 li:nth-child(4) img,
+    .main-page .parent .photo-list .list1 li:nth-child(5) img,
+    .main-page .parent .photo-list .list1 li:nth-child(6) img {
+        width: 100%;
+        image-rendering: pixelated;
+    }
+    
+    .btn1 {
+        position: absolute;
+        background-color: transparent;
+        color: transparent;
+        border: 0;
+        cursor: pointer;
+        height: 140%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        opacity: 0.01;
+        outline: 0;
+        overflow: visible;
+        z-index: 20;
+    }
+    /* .photo-list {
+        display: flex;
+    }
+    
+    .first-photo img {
+        max-width: 100%;
+        max-height: 100%;
+    } */
+    
+    .main-page .parent .photo-list .list1 li:after {
+        content: "";
+        background: transparent;
+        display: inline;
+        left: 25px;
+        position: absolute;
+    }
+    
+    .main-page .parent .photo-list .list1 li:first-child:hover:after {
+        background: url(../image/71kwzhf0-pS.__AC_SY300_SX300_QL70_FMwebp_.jpg)no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 40%;
+        height: 85%;
+        display: inline;
+        left: 70px;
+        content: "";
+    }
+    
+    .main-page .parent .photo-list .list1 li:nth-child(2):hover:after {
+        content: "";
+        background: url(../image/big\ 3.jpg)no-repeat;
+        background-size: contain;
+        background-position: left;
+        width: 40%;
+        height: 85%;
+        display: inline;
+        left: 70px;
+        top: 26%;
+    }
+    
+    .main-page .parent .photo-list .list1 li:nth-child(3):hover:after {
+        content: "";
+        background: url(../image/big\ 5.jpg)no-repeat;
+        background-size: contain;
+        background-position: left;
+        width: 40%;
+        height: 85%;
+        display: inline;
+        left: 70px;
+        top: 26%;
+    }
+    
+    .main-page .parent .photo-list .list1 li:nth-child(4):hover:after {
+        content: "";
+        background: url(../image/big\ 2.jpg)no-repeat;
+        background-size: contain;
+        background-position: left;
+        width: 40%;
+        height: 85%;
+        display: inline;
+        left: 70px;
+        top: 26%;
+    }
+    
+    .main-page .parent .photo-list .list1 li:nth-child(5):hover:after {
+        content: "";
+        background: url(../image/711AVP6GjVS._AC_SL1500_.jpg)no-repeat;
+        background-size: contain;
+        background-position: left;
+        width: 40%;
+        height: 85%;
+        display: inline;
+        left: 70px;
+        top: 26%;
+    }
+    
+    .main-page .parent .photo-list .list1 li:nth-child(6):hover:after {
+        content: "";
+        background: url(../image/big\ 4.jpg)no-repeat;
+        background-size: contain;
+        background-position: left;
+        width: 40%;
+        height: 85%;
+        display: inline;
+        left: 70px;
+        top: 26%;
+    }
+    
+    .info-link {
+        color: #007185;
+    }
+    
+    .info-link:hover {
+        color: #c60;
+        text-decoration: underline;
+    }

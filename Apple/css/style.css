@@ -1,0 +1,282 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+}
+
+.section-1 {
+    background: url(https://www.apple.com/v/home/ab/images/heroes/iphone-12/iphone_12_updated__jepm2xpxncuy_large.jpg)no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.section-2 {
+    background: url(https://www.apple.com/v/home/ab/images/heroes/iphone-12-pro/iphone_12_pro_us__e5oyysg4k0ya_large.jpg)no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.section-3 {
+    background: url(https://www.apple.com/v/home/ab/images/heroes/tv-plus-see-hero/hero_startframe__dbi4flqyio2u_large.jpg)no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: inherit;
+    padding-bottom: 100px;
+}
+
+.section-4:first-child img {
+    margin-bottom: 20px;
+}
+
+.gap {
+    height: 2vh;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background: #1d1d1f;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.container ul li a:hover {
+    opacity: 0.5;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ul {
+    display: flex;
+}
+
+.ul li {
+    display: flex;
+    padding: 30px;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.message-top {
+    text-align: center;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
+    padding: 20px;
+}
+
+.second {
+    font-size: 30px;
+    line-height: 25px;
+    color: #000;
+    padding: 20px;
+}
+
+.third {
+    color: gray;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.header-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+
+.second-1 {
+    font-size: 30px;
+    line-height: 25px;
+    color: white#000;
+    padding: 20px;
+}
+
+.third-1 {
+    color: gray;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.footer-1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
+}
+
+.photo-1 {
+    background: url(https://www.apple.com/v/home/ab/images/promos/ipad-pro/promo_ipad_pro_non_avail__c6f02v7gnwgi_large.jpg)no-repeat center center/cover;
+    width: 46vw;
+    height: 100vh;
+    margin: 10px;
+}
+
+.photo-2 {
+    background: url(https://www.apple.com/v/home/ab/images/promos/watch-series-6/promo_watch_series_6_lte__f8lrasjnry2y_large.jpg)no-repeat center center/cover;
+    width: 50vw;
+    height: 100vh;
+    margin: 10px;
+}
+
+.photo-3 {
+    background: url(https://www.apple.com/v/home/ab/images/promos/apple-fitness-plus/tile__cauwwcyyn9hy_large.jpg)no-repeat center center/cover;
+    width: 46vw;
+    height: 100vh;
+    margin: 10px;
+}
+
+.photo-4 {
+    background: url(https://www.apple.com/v/home/ab/images/promos/back-to-school-2021/promo_bts__bg3cb4kaoqoi_large.jpg)no-repeat center center/cover;
+    width: 50vw;
+    height: 100vh;
+    margin: 10px;
+}
+
+.photo-5 {
+    background: url(https://www.apple.com/v/home/ab/images/promos/app-store-marvel/tile_appstore_image__bo7esb6hmq02_large.jpg)no-repeat center center/cover;
+    width: 46vw;
+    height: 100vh;
+    margin: 10px;
+}
+
+.photo-6 {
+    background: url(https://www.apple.com/v/home/ab/images/promos/reji/tile_racial_equity__pi2fnk64hx6y_large.jpg)no-repeat center center/cover;
+    width: 50vw;
+    height: 100vh;
+    margin: 10px;
+}
+
+.header-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 30px;
+    line-height: 2.5rem;
+    font-size: 20px;
+}
+
+.header-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 30px;
+    line-height: 2.5rem;
+    font-size: 20px;
+}
+
+.header-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin: 30px;
+    line-height: 2.5rem;
+    font-size: 20px;
+}
+
+.header-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin: 20px;
+    line-height: 2.5rem;
+    font-size: 20px;
+}
+
+.header-7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin: 30px;
+    line-height: 2.5rem;
+    font-size: 20px;
+}
+
+.header-8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 30px;
+    line-height: 2.5rem;
+    font-size: 20px;
+}
