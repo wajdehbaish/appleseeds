@@ -368,6 +368,8 @@
     
     .div4 {
         grid-area: 4 / 1 / 5 / 6;
+        padding: 20px;
+        margin: 20px;
     }
     
     .Frequently-bought-images {
@@ -376,8 +378,13 @@
         margin-left: 10px;
     }
     
+    .bought-color {
+        color: #cc6600;
+    }
+    
     .total-price {
         display: flex;
+        justify-content: flex-start;
         flex-direction: column;
     }
     
@@ -403,6 +410,27 @@
     
     .div5 {
         grid-area: 5 / 1 / 6 / 6;
+    }
+    
+    .carousel-header {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+    .carousel-container {
+        display: flex;
+    }
+    
+    .photo-container {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    
+    .rating {
+        display: flex;
+        align-items: center;
     }
     
     .location-logo2 {
